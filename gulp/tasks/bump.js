@@ -43,7 +43,7 @@ exports.task = function () {
         VERSION = semver.inc(packageVersion, options.type, options.preid)
     }
 
-    gulp.src(['./package.json', './bower.json'])
+    gulp.src(['./package.json'])
         .pipe(bump(options))
         .pipe(gulp.dest('./'));
 };
