@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Creature and THREE.js integration",
   "authors": [
-    "Bogumil Wrona <b.wrona@cre8newmedia.com>"
+    "Bogumil Wrona"
   ],
   "moduleType": [
     "globals"

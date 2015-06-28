@@ -9,7 +9,7 @@
  * npm run gulp -- release --version 2.1.5
  */
 exports.task = function(cb) {
-    runSequence('bump', 'changelog', 'git-tag', 'deploy-gh-pages',
+    runSequence('clean', 'bump', 'changelog', 'build', 'git-tag', 'deploy-gh-pages',
         function (error) {
             if (error) {
                 console.log(error.message);

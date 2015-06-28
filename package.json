@@ -14,8 +14,12 @@
   ],
   "author": "Bogumil Wrona",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:cre8labs/creature-threejs.git"
+  },
   "bugs": {
-    "url": "https://github.com/cre8newmedia/cre8web/issues"
+    "url": "https://github.com/cre8labs/creature-threejs/issues"
   },
   "devDependencies": {
     "conventional-changelog": "0.0.17",
